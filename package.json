@@ -1,0 +1,16 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "project1 - JavaScript",
+  "main": "test-project2.js",
+  "dependencies": {
+    "jshint": "^2.9.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node run-tests-using-node.js",
+    "jshint": "jshint --config .jshintrc --exclude=node_modules . || exit 0"
+  },
+  "author": "lamnikoso",
+  "license": "ISC"
+}
